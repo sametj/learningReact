@@ -1,10 +1,10 @@
 import React from "react";
 import "./header.css";
 
-function header() {
+function header({ title }) {
   return (
     <div className="App-header">
-      <h1 className="h1-style"> Amazon Cart</h1>
+      <h1 className="h1-style">{title}</h1>
     </div>
   );
 }
