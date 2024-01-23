@@ -1,0 +1,11 @@
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  background-color: white;
+  height: 800px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 14px 18px 0 18px;
+  gap: 16px;
+}
