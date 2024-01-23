@@ -1,6 +1,7 @@
 .item {
   display: flex;
   flex-direction: row;
+
   width: 100%;
   height: 300px;
   background-color: white;
@@ -16,6 +17,7 @@ img {
 .item-desc-container {
   display: flex;
   align-items: flex-start;
+
   color: blue;
   flex-basis: 70%;
   padding: 16px;
@@ -36,6 +38,7 @@ h1 {
   background-color: rgb(215, 212, 212);
   padding: 4px;
   color: black;
+  box-shadow: 0 4px 8px black;
 }
 .qty-container {
   display: flex;
@@ -62,4 +65,5 @@ h1 {
   left: 0;
   color: black;
   font-size: 40px;
+  padding: 12px;
 }
